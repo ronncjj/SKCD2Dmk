@@ -1,4 +1,4 @@
-var hoursCompleted	= 4240; 
+var hoursCompleted	= 1999; 
 
 var maxColumn		= 40;
 var maxRow			= 25;
