@@ -1,4 +1,5 @@
-var hoursCompleted	= 1999; 
+// Edit only the hoursCompleted
+var hoursCompleted	= 1400; 
 
 var maxColumn		= 40;
 var maxRow			= 25;
@@ -18,6 +19,12 @@ function loadPicture() {
 
 	$('#chartCompletion').text(chartCompleted);
 
+	// Display completed image
+
+	rowloop:
+	for(i = 1; i<=chartCompleted; i++){
+		
+	}
 
 	rowloop:
 	for (i = 1; i <=maxRow; i++) {
@@ -28,7 +35,7 @@ function loadPicture() {
 				tilesCompleted--;
 			}
 			else {
-				break rowloop;
+				$(`#row-${i}`).append(`<img src="img/bnw/row-${i}-column-${j}.jpg" class="tile" id="row-${i}-col-${j}"/>`);
 			}
 		}
 	}

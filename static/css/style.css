@@ -3,9 +3,11 @@ html 	{ width: 100%; height: 100%; }
 
 .header	{ letter-spacing: 0.16em; }
 .info 	{ letter-spacing: 0.16em; }
+
 .picture{ height: 0.62em; background-color: #FFFFFF; white-space: nowrap;  display: flex;
 	flex-wrap: wrap;
 	align-items: center;}
+
 .tile	{ width: 1%;}
 
 .group-photo{
