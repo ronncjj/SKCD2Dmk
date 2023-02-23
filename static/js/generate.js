@@ -1,9 +1,11 @@
 // Edit only the hoursCompleted
-var hoursCompleted	= 1400; 
+var hoursCompleted	= 283; 
 
 var maxColumn		= 40;
 var maxRow			= 25;
 var completeChart = 1000;
+
+var imgUrl = "img/lion.jpg"
 
 function loadPicture() {
 	var rate			= 1;
@@ -21,9 +23,12 @@ function loadPicture() {
 
 	// Display completed image
 
-	rowloop:
 	for(i = 1; i<=chartCompleted; i++){
+		var image = document.createElement("img");
 		
+        image.src = imgUrl;
+
+        document.querySelector(".chartCompletionWrapper").appendChild(image);
 	}
 
 	rowloop:
