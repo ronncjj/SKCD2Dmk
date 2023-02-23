@@ -21,10 +21,10 @@ function loadPicture() {
 
 	// Display completed image
 
-	// rowloop:
-	// for(i = 1; i<=chartCompleted; i++){
+	rowloop:
+	for(i = 1; i<=chartCompleted; i++){
 		
-	// }
+	}
 
 	rowloop:
 	for (i = 1; i <=maxRow; i++) {
