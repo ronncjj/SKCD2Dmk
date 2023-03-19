@@ -58,7 +58,8 @@ justify-content: center;}
   }
 
   img {
-	width: 100%;
+	/* Change to 100% if more than 2000 dmk */
+	width: 30%; 
     object-fit: cover;
   }
 
