@@ -1,5 +1,5 @@
 // Edit only the hoursCompleted
-var hoursCompleted	= 1262; 
+var hoursCompleted	= 2552; 
 
 var maxColumn		= 40;
 var maxRow			= 25;
